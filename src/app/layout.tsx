@@ -17,12 +17,15 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ssdtecnologia.com.br"),
+
   title: {
     default: "SSD Tecnologia | Suporte de TI para Empresas em Blumenau",
     template: "%s | SSD Tecnologia",
   },
+
   description:
     "Suporte técnico, contrato mensal de TI, manutenção, redes, servidores, consultoria e venda de equipamentos para empresas em Blumenau e região.",
+
   keywords: [
     "SSD Tecnologia",
     "suporte de TI Blumenau",
@@ -35,22 +38,37 @@ export const metadata: Metadata = {
     "consultoria em TI",
     "TI para empresas",
   ],
+
   authors: [{ name: "SSD Tecnologia" }],
   creator: "SSD Tecnologia",
   publisher: "SSD Tecnologia",
+
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      {
+        url: "/favicon-96x96.png",
+        sizes: "96x96",
+        type: "image/png",
+      },
+    ],
     shortcut: "/favicon.ico",
-    apple: "/images/icon-ssd.png",
+    apple: "/apple-touch-icon.png",
   },
+
+  manifest: "/site.webmanifest",
+
   openGraph: {
     title: "SSD Tecnologia | Suporte de TI para Empresas em Blumenau",
     description:
       "Soluções inteligentes em tecnologia para empresas que precisam de segurança, estabilidade e suporte profissional.",
+
     url: "https://ssdtecnologia.com.br",
     siteName: "SSD Tecnologia",
     locale: "pt_BR",
     type: "website",
+
     images: [
       {
         url: "/images/logo-light.png",
@@ -60,13 +78,18 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
+
     title: "SSD Tecnologia | Suporte de TI para Empresas em Blumenau",
+
     description:
       "Contrato mensal de TI, suporte técnico, redes, servidores e consultoria para empresas em Blumenau e região.",
+
     images: ["/images/logo-light.png"],
   },
+
   robots: {
     index: true,
     follow: true,
