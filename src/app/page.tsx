@@ -38,9 +38,9 @@ const services = [
   },
   {
     icon: Wrench,
-    title: "Manutenção",
+    title: "Manutenção de Computadores",
     description:
-      "Manutenção preventiva e corretiva em computadores, estações de trabalho e equipamentos corporativos.",
+      "Assistência técnica em computadores, manutenção preventiva e corretiva em estações de trabalho e equipamentos corporativos.",
   },
   {
     icon: Network,
@@ -66,7 +66,7 @@ const benefits = [
   "Atendimento rápido",
   "Foco empresarial",
   "Suporte humanizado",
-  "Organização da infraestrutura",
+  "Assistência técnica em computadores",
   "Atendimento remoto e presencial",
   "Cobertura em Blumenau e região",
 ];
@@ -96,13 +96,14 @@ export default function Home() {
             </div>
 
             <h1 className="max-w-4xl text-4xl font-black leading-[1.08] tracking-tight md:text-5xl lg:text-6xl">
-              Suporte de TI profissional para empresas.
+              Suporte de TI e assistência técnica em computadores para empresas
+              em Blumenau.
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 md:text-lg">
-              Contrato mensal, suporte técnico, manutenção, redes, servidores e
-              atendimento corporativo para empresas que precisam de segurança,
-              estabilidade e resposta rápida.
+              A SSD Tecnologia oferece suporte de TI, assistência técnica em
+              computadores, manutenção preventiva, redes corporativas, servidores
+              e contrato mensal para empresas em Blumenau e região.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -115,7 +116,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://wa.me/5547999874509"
+                href="https://wa.me/5547999874509?text=Ol%C3%A1%2C%20vim%20do%20Google%20para%20falar%20com%20voc%C3%AA"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-[#DFE7F7] bg-white/85 px-7 py-4 text-base font-bold text-[#002198] backdrop-blur-xl transition hover:border-[#0B5FFF]"
@@ -182,6 +183,42 @@ export default function Home() {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BLOCO SEO VISÍVEL */}
+      <section className="bg-white py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="max-w-4xl">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#DFE7F7] bg-[#F8FBFF] px-4 py-2 text-sm font-semibold text-[#002198] shadow-sm">
+              <MonitorCog size={16} />
+              Assistência técnica empresarial
+            </div>
+
+            <h2 className="text-3xl font-black tracking-tight md:text-4xl">
+              Assistência técnica em computadores e suporte de TI empresarial.
+            </h2>
+
+            <div className="mt-6 space-y-5 text-base leading-8 text-slate-600 md:text-lg">
+              <p>
+                A SSD Tecnologia atende empresas que precisam de estabilidade,
+                organização e suporte técnico profissional para computadores,
+                servidores, redes e infraestrutura corporativa.
+              </p>
+
+              <p>
+                Atuamos com assistência técnica em computadores, manutenção
+                preventiva, suporte remoto, suporte presencial e contrato mensal
+                de TI para empresas em Blumenau e região.
+              </p>
+
+              <p>
+                Nosso foco é reduzir falhas, evitar paradas operacionais e
+                manter os equipamentos funcionando com segurança e
+                previsibilidade.
+              </p>
             </div>
           </div>
         </div>
@@ -358,8 +395,9 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 md:text-lg">
-              Solicite um contato para suporte técnico, manutenção, redes,
-              servidores ou contrato mensal de TI para sua empresa.
+              Solicite um contato para suporte técnico, assistência técnica em
+              computadores, manutenção, redes, servidores ou contrato mensal de
+              TI para sua empresa.
             </p>
           </div>
 
